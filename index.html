@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<main id="main">
 <head>
   <meta charset="utf-8">
 
@@ -11,11 +10,6 @@
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
   <style type="text/css">
-
-#main {
-
-}
-
 h1 {
   text-align: center;
 }
@@ -37,9 +31,12 @@ p {
 }
 
 #survey-form{
+  display: grid;
   background-color: white;
   margin-left: 10%;
   margin-right: 10%;
+  grid-template-column: 1fr 1fr;
+  grid-template-row: 1fr 1fr; 
 }
 </style>
 
@@ -59,10 +56,21 @@ p {
     <lable id="email-lable">Email <input id="email" type="email" required placeholder="Email"></lable><br>
     <lable id="number-lable">Number <input id="number" type="number" required placeholder="number"></lable><br>
     </center>
+    <p>
+    Lets know your name and some other trash 
+    so we can email and call you to death.
+    </p> 
+    <p> 
+    Also, how many tooth burshes do you own? <lable id="toothbrush-lable">be honest <input id="brushes" type="number" placeholder="tooth brushies"
+    
+    <dropdown id="dropdown"> 
+
+    
+  
+
   </form>
 
 
 </body>
 <script src="js/scripts.js"></script>
-</main>
 </html>
