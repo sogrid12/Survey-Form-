@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<main id="main">
+<head>
+  <meta charset="utf-8">
+
+  <title>SURVEY FORM</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <style type="text/css">
+
+#main {
+
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: teal; 
+}
+
+p {
+  text-align: center;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+
+#number{
+  min-input: 1;
+  max-input: 10;
+}
+
+#survey-form{
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+</style>
+
+</head>
+
+<body>
+  <h1 id="title"> 
+    SURVEY FORM
+  </h1>
+  <p id="description">
+    Help us to be more funny and weird
+  </p>
+
+  <form id="survey-form">
+    <center>
+    <lable id="name-label">Name <input id="name" type="text" placeholder="Name"></lable><br>
+    <lable id="email-lable">Email <input id="email" type="email" required placeholder="Email"></lable><br>
+    <lable id="number-lable">Number <input id="number" type="number" required placeholder="number"></lable><br>
+    </center>
+  </form>
+
+
+</body>
+<script src="js/scripts.js"></script>
+</main>
+</html>
