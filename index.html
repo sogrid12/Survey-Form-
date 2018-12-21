@@ -60,7 +60,7 @@ p {
     <center>
     <label id="name-label">Name <input id="name" type="text" required placeholder="Name"></label><br>
     <label id="email-label">Email <input id="email" type="email" required placeholder="Email"></label><br>
-    <label id="number-label">Number <input id="number" type="number" required placeholder="number"></label><br>
+    <label id="number-label">Number <input id="number" type="number" min="1" max="10" required placeholder="number"></label><br>
     </center>
     <p>
     Lets know your name and some other trash 
@@ -69,9 +69,9 @@ p {
     </p> 
     <p> 
     Also, how many tooth brushes do you own?
-     <label id="toothbrush-label">be honest
-      <input id="brushes" type="number" max=10 min=1 placeholder=" # of tooth brushies"
-     </label>
+     <center>
+      <input id="brushes" type="number" max="10" min="1" required placeholder=" # of tooth brushies">
+     </center>
      <p>
      what is your favorite smell of cheese?
      </p>
